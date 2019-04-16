@@ -1,30 +1,24 @@
 {
   "name": "react-seminar",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@types/jest": "24.0.11",
-    "@types/node": "11.13.4",
-    "@types/react": "16.8.13",
-    "@types/react-dom": "16.8.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8",
-    "typescript": "3.4.3"
-  },
+  "version": "1.0.0",
+  "description": "A Next.js boilerplate",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node next/server.js",
+    "build": "next build",
+    "start": "next start"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "author": "Po",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^8.0.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "@types/react": "^16.8.13"
+  }
 }
