@@ -8,7 +8,7 @@ module.exports = withTypescript(
     cssModules: true,
     cssLoaderOptions: {
       camelCase: true,
-      // localIdentName: '[local]', // Uncomment this to disable hash
+      localIdentName: '[hash:base64:5]', 
     },
   }),
 );
